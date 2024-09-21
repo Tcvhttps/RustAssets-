@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace UnityStandardAssets.CinematicEffects
+namespace Smaa
 {
 	public class MinAttribute : PropertyAttribute
 	{
