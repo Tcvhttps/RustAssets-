@@ -1,6 +1,9 @@
-namespace UnityStandardAssets.ImageEffects
+using System;
+
+namespace UnityEngine.Rendering.PostProcessing
 {
-	public class DepthOfField : PostEffectsBase
+	[Serializable]
+	public class DepthOfField : PostProcessEffectSettings
 	{
 	}
 }

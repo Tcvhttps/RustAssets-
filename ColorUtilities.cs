@@ -1,10 +1,11 @@
 using Il2CppSystem;
+using System;
 
 namespace UnityEngine.Rendering.PostProcessing
 {
-	public class MinAttribute : Attribute
+	public class ColorUtilities : Object
 	{
-		public MinAttribute(float min)
+		public ColorUtilities(IntPtr pointer)
 		{
 		}
 

@@ -1,9 +1,10 @@
 using System;
+using UnityEngine;
 
 namespace UnityEngine.Rendering.PostProcessing
 {
 	[Serializable]
-	public class Bloom : PostProcessEffectSettings
+	public class PostProcessEffectSettings : ScriptableObject
 	{
 	}
 }

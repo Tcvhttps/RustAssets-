@@ -1,10 +1,11 @@
 using Il2CppSystem;
+using System;
 
 namespace UnityEngine.Rendering.PostProcessing
 {
-	public class MinAttribute : Attribute
+	public class MeshUtilities : Object
 	{
-		public MinAttribute(float min)
+		public MeshUtilities(IntPtr pointer)
 		{
 		}
 

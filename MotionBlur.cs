@@ -1,6 +1,9 @@
-namespace UnityStandardAssets.ImageEffects
+using System;
+
+namespace UnityEngine.Rendering.PostProcessing
 {
-	public class MotionBlur : ImageEffectBase
+	[Serializable]
+	public class MotionBlur : PostProcessEffectSettings
 	{
 	}
 }

@@ -1,10 +1,11 @@
 using Il2CppSystem;
+using System;
 
 namespace UnityEngine.Rendering.PostProcessing
 {
-	public class MinAttribute : Attribute
+	public class HaltonSeq : Object
 	{
-		public MinAttribute(float min)
+		public HaltonSeq(IntPtr pointer)
 		{
 		}
 

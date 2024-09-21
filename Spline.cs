@@ -1,10 +1,12 @@
+using System;
 using Il2CppSystem;
 
 namespace UnityEngine.Rendering.PostProcessing
 {
-	public class MinAttribute : Attribute
+	[Serializable]
+	public class Spline : Object
 	{
-		public MinAttribute(float min)
+		public Spline(IntPtr pointer)
 		{
 		}
 

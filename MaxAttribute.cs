@@ -2,9 +2,9 @@ using Il2CppSystem;
 
 namespace UnityEngine.Rendering.PostProcessing
 {
-	public class MinAttribute : Attribute
+	public class MaxAttribute : Attribute
 	{
-		public MinAttribute(float min)
+		public MaxAttribute(float max)
 		{
 		}
 

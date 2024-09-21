@@ -1,10 +1,11 @@
 using Il2CppSystem;
+using System;
 
 namespace UnityEngine.Rendering.PostProcessing
 {
-	public class MinAttribute : Attribute
+	public class ShaderIDs : Object
 	{
-		public MinAttribute(float min)
+		public ShaderIDs(IntPtr pointer)
 		{
 		}
 
