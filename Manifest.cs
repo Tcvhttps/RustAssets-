@@ -3,9 +3,9 @@ using System;
 
 namespace Facepunch
 {
-	public class Database : Object
+	public class Manifest : Object
 	{
-		public Database(IntPtr pointer)
+		public Manifest(IntPtr pointer)
 		{
 		}
 

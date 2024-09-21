@@ -2,7 +2,7 @@ using Il2CppSystem;
 
 namespace Facepunch
 {
-	public class Hero : Object
+	public class BaseIntegration : Object
 	{
 	}
 }

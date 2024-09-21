@@ -3,9 +3,9 @@ using System;
 
 namespace Facepunch
 {
-	public class Database : Object
+	public class Mono : Object
 	{
-		public Database(IntPtr pointer)
+		public Mono(IntPtr pointer)
 		{
 		}
 

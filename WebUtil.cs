@@ -3,9 +3,9 @@ using System;
 
 namespace Facepunch
 {
-	public class Database : Object
+	public class WebUtil : Object
 	{
-		public Database(IntPtr pointer)
+		public WebUtil(IntPtr pointer)
 		{
 		}
 
