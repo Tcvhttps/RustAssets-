@@ -1,8 +1,3 @@
-using UnityEngine;
-
-namespace Facepunch
+public class ListComponent : FacepunchBehaviour
 {
-	public class ListComponent : MonoBehaviour
-	{
-	}
 }

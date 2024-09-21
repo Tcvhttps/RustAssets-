@@ -3,9 +3,9 @@ using System;
 
 namespace Rust
 {
-	public class Application : Object
+	public class Global : Object
 	{
-		public Application(IntPtr pointer)
+		public Global(IntPtr pointer)
 		{
 		}
 
